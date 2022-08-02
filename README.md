@@ -15,7 +15,7 @@ You'll have to edit the userscript itself.
 2. Add a property to the `redirects` object where the key is the site name you're redirecting from, and the value is the domain of the privacy-friendly alternative. For example:
   ```js
   let redirects = {
-    ...
+    'twitter': 'nitter.net',
     'youtube': 'piped.kavin.rocks'
   };
   ```
