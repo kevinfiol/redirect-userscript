@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name        redirector
-// @namespace   Violentmonkey Scripts
 // @match       https://*.imgur.com/*
 // @match       https://*.twitter.com/*
 // @match       https://*.medium.com/*
 // @grant       none
 // @version     1.0
-// @author      -
+// @author      kevinfiol
 // @description 7/30/2022, 5:34:35 PM
 // ==/UserScript==
 
