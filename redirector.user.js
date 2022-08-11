@@ -3,6 +3,7 @@
 // @match       https://*.imgur.com/*
 // @match       https://*.twitter.com/*
 // @match       https://*.medium.com/*
+// @match       https://*.youtube.com/*
 // @grant       none
 // @version     1.0
 // @author      kevinfiol
@@ -19,7 +20,8 @@ let query = window.location.search;
 let redirects = {
   'imgur': 'i.bcow.xyz',
   'twitter': 'notabird.site',
-  'medium': 'scribe.rip'
+  'medium': 'scribe.rip',
+  'youtube': 'yewtu.be'
 };
 
 let redirect = redirects[site];
