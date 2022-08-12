@@ -14,6 +14,9 @@ let site = window.location.hostname.split('.').at(-2);
 let path = window.location.pathname;
 let query = window.location.search;
 
+// don't redirect if redirect=false is set as a queryparam
+if (query.indexOf('redirect=false') > -1) return;
+
 // add redirects here
 // omit TLDs from original hostnames as shown below
 // don't forget to add a @match clause to your `==UserScript==` block above
