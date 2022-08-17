@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name        redirector
+// @run-at document-start
 // @match       https://*.imgur.com/*
 // @match       https://*.twitter.com/*
 // @match       https://*.medium.com/*
 // @match       https://*.youtube.com/*
+// @exclude     https://*.youtube.com/feed/channels
 // @grant       none
 // @version     1.0
 // @author      kevinfiol
